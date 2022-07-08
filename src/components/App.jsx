@@ -11,6 +11,14 @@ function App() {
     setNotes(prevNotes => [...prevNotes, newNote]);
   }
 
+  function deleteNote(id) {
+    setNotes(prevNotes => {
+      return prevNotes.filter((note, index) => {
+        return index !== id;
+      });
+    });
+  }
+
   return (
     <div>
       <Header />
@@ -22,6 +30,7 @@ function App() {
             id={index}
             title={note.title}
             content={note.content}
+            deleteNote={deleteNote}
           />
         );
       })}
