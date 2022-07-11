@@ -9,6 +9,8 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-color: #eee;
+  background-image: url("https://transparenttextures.com/patterns/cubes.png");
 }
 
 header {
