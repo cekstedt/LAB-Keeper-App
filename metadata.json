@@ -8,6 +8,5 @@
   "personal": false,
   "thumbnail": "thumbnail.png",
   "technologies": ["html", "css", "js", "react", "material_ui"],
-  "status": "complete",
   "priority": "done"
 }
